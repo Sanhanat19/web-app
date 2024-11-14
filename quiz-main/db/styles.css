@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('login-background.jpg'); 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.login-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 40%;
+    padding: 10px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #00bfff;
+    color: white;
+    cursor: pointer;
+    margin: 20px 10px;
+}
+
+.cancelButton {
+    background-color: #ff3b3b;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('register-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 300px;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#cancel {
+    background-color: red;
+    color: white;
+}
+
+button#ok {
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('quiz-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button#edit {
+    background-color: grey;
+    color: white;
+}
+
+button#delete {
+    background-color: red;
+    color: white;
+}
+
+button#submit {
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('score-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+button#back {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#score {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
